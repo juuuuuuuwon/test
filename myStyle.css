@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'YunChorokwoosanEoriniMinguk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408@1.0/YoonChildfundkoreaMinGuk.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BonmyeongjoSourceHanSerif';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+#mainContents{
+    width: 1080px;
+    margin: 0 auto;
+    background-image: url(img/base.png);
+}
+
+#container{
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url(img/base.png);
+}
+
+.row{
+
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.row2 { 
+    
+    height: 435px;
+    width: 100%;
+    display:flex; 
+    justify-content:space-evenly;
+}
+
+.row3 { 
+    
+    height: 435px;
+    width: 100%;
+    display:flex; 
+}
+
+.img-wrap {
+    position: relative;
+}
+
+.img-wrap img {
+    position: absolute;
+}
+
+.img-wrap .hover {
+    opacity: 0;
+}
+
+.img-wrap:hover .hover {
+    opacity: 1;
+}
+
+.img-wrap:hover .normal {
+    opacity: 0;
+}
+
+.item-big {
+  position: relative;
+}
+
+.item-big .img-wrap {
+    position: relative;
+    top: -180px;   
+}
+
+.col1{width: 8.3%; padding:0.2rem;}
+.col2{width: 16.6%; padding: 0.2rem;}
+.col3{width: 24.9%; padding: 0.2rem;}
+.col4{width: 33.2%; padding: 0.2rem;}
+.col5{width: 41.5%; padding: 0.2rem;}
+.col6{width: 49.8%; padding: 0.2rem;}
+.col7{width: 58.1%; padding: 0.2rem;}
+.col8{width: 66.4%; padding: 0.2rem;}
+.col9{width: 74.7%; padding: 0.2rem;}
+.col10{width: 83%; padding: 0.2rem;}
+.col11{width: 91.3%; padding: 0.2rem;}
+.col12{width: 100%; padding: 0.2rem;}
+
+.h-100{height:100px;}
+.h-80{height:80px;}
+.h-20{height:20px;}
+.h-40{height:40px;}
+.h-50{height:50px;}
+
+.text-center{text-align: center;}
+.text-justify{text-align:justify;}
+.text-end{text-align:end;}
+
+.text-mainTitle{
+    font-family:'YunChorokwoosanEoriniMinguk';
+    font-weight:500;
+    font-size: 5rem;
+}
+
+.text-subTitle{
+    font-family:'YunChorokwoosanEoriniMinguk';
+    font-weight:200;
+    font-size: 3.5rem;
+}
+
+.text-subTitle2{
+    font-family:'YunChorokwoosanEoriniMinguk';
+    font-weight:50;
+    font-size: 1rem;
+}
+
+.text-subTitle3{
+    font-family:'YunChorokwoosanEoriniMinguk';
+    font-weight:70;
+    font-size: 1rem;
+}
+
+.text-normal{
+    font-family:'BonmyeongjoSourceHanSerif';
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.text-normal2{
+    font-family:'BonmyeongjoSourceHanSerif';
+    font-weight: normal;
+    font-size: 3rem;
+}
